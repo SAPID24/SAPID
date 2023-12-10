@@ -15,6 +15,13 @@ This project is a PyTorch implementation of SAPID: Aggregately Diversified Seque
 ## Datasets
 We provide 4 datasets in this project: Gowalla, Amazon-electronics, Amazon-home, and Ml-1m.
 We include the preprocessed datasets in the repository: `data/{data_name}`
+Use git lfs with following scripts after clone this repository to download datsets.
+```
+curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt install git-lfs
+git lfs pull
+```
+
 
 ## Base model
 We provide 2 most widely used sequential recommendation models: SASRec and GRU4Rec.
