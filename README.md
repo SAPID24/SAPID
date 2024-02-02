@@ -1,6 +1,6 @@
 # Aggregately Diversified Sequential Recommendation
 
-This project is a PyTorch implementation of SAPID: Aggregately Diversified Sequential Recommendation.
+This project is a PyTorch implementation of IDSD: Diversified and Accurate Recommendations for the Series of Users
 
 
 ## Prerequisites
